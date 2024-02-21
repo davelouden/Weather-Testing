@@ -3,6 +3,28 @@ body {
     text-align: center;
 }
 
+#display {
+  height: 100%;
+  width: 100%;
+  border-radius: 18px;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(
+    at top left,
+    #0566D1 8%,
+    #B6B8CD 23%,
+    #E48B53 48%,
+    #FFC801 67%,
+    #FF7603 89%,
+    #86451D 96%   
+);
+  color: white;
+  min-width: 15%;
+  text-decoration: none;
+  font-weight: 150%;
+  min-width: 250px;
+}
+
 #container {
     display: flex;
     flex-direction: column;
@@ -96,4 +118,20 @@ body {
 #bottomSection2 p,
 #bottomSection3 p {
     margin: 5px 0;
+}
+
+#bottomSection1Temp
+{
+    font-size: 1.9rem;
+    font-weight: 150%;
+}
+#bottomSection2Temp
+{
+    font-size: 1.9rem;
+    font-weight: 150%;
+}
+#bottomSection3Temp
+{
+    font-size: 1.9rem;
+    font-weight: 150%;
 }
