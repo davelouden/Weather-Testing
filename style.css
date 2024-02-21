@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#cityName {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 3%;
+    margin-top: 1%
+}
+
+#date {
+    font-size: 1rem;
+    margin: 0;
+}
+
+#weatherIconContainer {
+    margin-top: 10px;
+    width: 50%;
+    height: 40%;
+}
+
+#weatherIcon {
+    width: 50%;
+    height: 50%;
+    /* Adjust the width as needed */
+}
+
+#description {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.weatherData {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#currentTemp {
+    font-size: 3rem;
+    margin: 0;
+}
+
+#feelsLike {
+    font-size: 1rem;
+    margin-top: 0;
+}
+
+#bottomContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    /* Set a specific width for the bottom container */
+    margin-top: 20px;
+    margin: 5% 10%;
+}
+
+#bottomSection1,
+#bottomSection2,
+#bottomSection3 {
+    flex: 1;
+    max-width: calc(28%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#bottomSection1 img,
+#bottomSection2 img,
+#bottomSection3 img {
+    width: 40%;
+    /* Adjust the width of the images as needed */
+    height: auto;
+    margin-top: 10px;
+}
+
+#bottomSection1 p,
+#bottomSection2 p,
+#bottomSection3 p {
+    margin: 5px 0;
+}
